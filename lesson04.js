@@ -1,0 +1,20 @@
+console.log("•••••••••••••")
+console.log('Hello World!');
+console.log("•••••••••••••")
+
+
+setTimeout(function(){
+    console.log("04 seconds \n have passed!");
+    console.log("•••••••••••••")
+},4000);
+
+// below will run forever
+// exit via cntrl C in the CLI
+
+var time = 0;
+
+setInterval(() => {
+    time += 2;
+    console.log(time + ' seconds \n have passed');
+    
+}, 2000);
