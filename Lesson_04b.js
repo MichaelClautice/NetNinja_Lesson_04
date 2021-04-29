@@ -1,3 +1,7 @@
+// Michael_Clautice, Richmond, VA
+// The Net Ninja - Node JS Tutorial for Beginners 
+// Lesson 04 - The Global Object
+//-----------
 var mikesTime = 0;
 
 const timer = setInterval( () => {
@@ -11,10 +15,10 @@ const timer = setInterval( () => {
 }, 2000);
 
 
-// node can also determine the your directory by using '__dirname';
+// node can also determine the directory by using '__dirname';
 console.log("••••••++•••••••")
 console.log(__dirname);
-// node can also determine the your file name by using '__filename';
+// node can also determine the file name by using '__filename';
 console.log("••••••++•••••••")
 console.log(__filename);
 console.log("••••••++•••••••")
