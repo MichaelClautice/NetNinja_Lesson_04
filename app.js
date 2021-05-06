@@ -3,7 +3,7 @@
 // Lesson 04 - The Global Object
 //-----------
 // SET TIMEOUT DEMO 
-// setTimeout takes 2 params: 1 - a function, 2 - the amt of time when the function times out
+// setTimeout takes 2 params: 1 - a callback function, 2 - the amt of time when the function times out
 console.log("••••••••••••••");
 setTimeout(function(){
     console.log("DEMO 01 - SET TIMEOUT");
