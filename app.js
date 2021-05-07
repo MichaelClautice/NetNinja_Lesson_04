@@ -1,10 +1,10 @@
-// Michael_Clautice, Richmond, VA
+// Michael Clautice, Richmond, VA
 // The Net Ninja - Node JS Tutorial for Beginners 
 // Lesson 04 - The Global Object
 //-----------
 // SET TIMEOUT DEMO 
 // setTimeout takes 2 params: 1 - a callback function, 2 - the amt of time when the function times out
-console.log("••••••••••••••");
+console.log("\n\n\n••••••••••••••");
 setTimeout(function(){
     console.log("DEMO 01 - SET TIMEOUT");
     console.log("••••••••••••••");
@@ -13,7 +13,7 @@ setTimeout(function(){
 }, 2000);
 //•••••••••••••••••••
 // SET INTERVAL DEMO
-console.log("••••••••••••••");
+console.log("\n\n\n••••••••••••••");
 var time = 0;
 var timer = setInterval(function(){
     time += 2;
@@ -27,7 +27,7 @@ var timer = setInterval(function(){
 }, 2000);
 //•••••••••••••••••••
 // DIRECTORY NAME DEMO
-console.log("••••••••••••••");
+console.log("\n\n\n••••••••••••••");
 console.log("DEMO 03 - DIRECTORY NAME");
 console.log(__dirname);
 // FILE NAME DEMO
